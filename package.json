@@ -5,12 +5,11 @@
     "start": "node jano.js"
   },
   "dependencies": {
-    "discord.js": "11.4.2",
+    "discord.js": "12.5.6",
     "express": "^4.17.1",
-    "ytdl-core": "^4.9.1",
-    "discord.js-v12": "^12.5.3"
+    "ytdl-core": "^4.9.1"
   },
   "engines": {
-    "node": "8.x"
+    "node": "10.x"
   }
 }

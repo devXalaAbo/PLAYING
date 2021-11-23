@@ -1,18 +1,20 @@
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const smsm = new Discord.Client();
 //////// playing or dnd  streaming ////////
 
-client.on("ready", () =>{
-  console.log(`sleeping bot ${client.user.tag}!`);
-  client.user.setPresence({
-    status: "dnd",
+smsm.on("ready", () =>{
+  console.log(`sleeping bot ${smsm.user.tag}!`);
+  smsm.user.setPresence({
+    status: "idle",
     game: {
-       name: "",
-       type: "PLAY",
+       name: "Under development",
+       type: "PLAYING",
     }
   });
 });
+
+
 ///////////////////////
 
 //////////////// tokn lera da bne
-client.login(process.env.TOKEN);
+smsm.login(process.env.TOKEN);
