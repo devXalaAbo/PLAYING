@@ -3,7 +3,7 @@ const client = new Discord.Client();
 //////// playing or dnd  streaming ////////
 client.on('ready' , () =>{
  console.log('Bot esta escuchando');
- client.user.setStatus('dnd');
+ client.user.setStatus('ldle');
 
  console.log('ldle', client.user.presence.status);
 
