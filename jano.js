@@ -3,11 +3,11 @@ const client = new Discord.Client();
 //////// playing or dnd  streaming ////////
 
 client.on("ready", () =>{
-  console.log(`sleeping bot ${client.user.tag}!`);
+  console.log(` Online bot ${client.user.tag}!`);
   client.user.setPresence({
-    status: "dnd",
+    status: "idle",
     game: {
-       name: "",
+       name: "Under Development",
        type: "PLAY",
     }
   });
