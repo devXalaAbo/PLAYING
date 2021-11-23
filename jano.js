@@ -1,22 +1,54 @@
 const Discord = require("discord.js");
 const jano = new Discord.Client();
 //////// playing or dnd  streaming ////////
-jano.on("ready", () => {
-  console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+smsm39.on("ready", () => {
+  console.log(
+    `Online In Servers`
+  );
+  let statuses = [
+  
+  `By : SMSM`,
+
+  ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano.user.StatusActivity("");
-    jano.user.setActivity(STREAMING, {
-      type: "STREAMING",
-      url: "https://www.twitch.tv/faith"
+    smsm39smsm39.on("ready", () => {
+  console.log(
+    `Online In Servers`
+  );
+  let statuses = [
+  
+  `By : SMSM`,
+
+  ];
+  setInterval(function() {
+    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
+    smsm39.user.setActivity(STREAMING, {      
+    type: "playing", 
+    url: "https://www.twitch.tv/faith"
+    });
+  }, 2000);
+})smsm39.on("ready", () => {
+  console.log(
+    `Online In Servers`
+  );
+  let statuses = [
+  
+  `By : SMSM`,
+
+  ];
+  setInterval(function() {
+    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
+    smsm39.user.setActivity(STREAMING, {      
+    type: "playing", 
+    url: "https://www.twitch.tv/faith"
+    });
+  }, 2000);
+    }.user.setActivity(STREAMING, {      
+    type: "playing", 
+    url: "https://www.twitch.tv/faith"
     });
   }, 2000);
 });
-///////////////////////
-jano.on("ready", () => {
-  var join = jano.channels.get(""); /// id voice
-  if (join) join.join();
-});
 //////////////// tokn lera da bne
-jano.login("");
+jano.login(process.env.TOKEN);
