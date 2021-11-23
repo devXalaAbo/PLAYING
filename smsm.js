@@ -16,4 +16,3 @@ client.on("ready", () =>{
 
 //////////////// tokn lera da bne
 client.login(process.env.TOKEN);
-client.login(process.env.TOKEN2);
