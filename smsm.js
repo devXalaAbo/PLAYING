@@ -7,8 +7,8 @@ client.on("ready", () =>{
   client.user.setPresence({
     status: "idle",
     game: {
-       name: "Under Development",
-       type: "PLAY",
+       name: "In development, it will be completed soon",
+       type: "PLAYING",
     }
   });
 });
@@ -16,3 +16,4 @@ client.on("ready", () =>{
 
 //////////////// tokn lera da bne
 client.login(process.env.TOKEN);
+client.login(process.env.TOKEN2);

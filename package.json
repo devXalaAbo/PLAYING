@@ -1,8 +1,8 @@
 {
   "version": "2.1.0",
-  "main": "jano.js",
+  "main": "smsm.js",
   "scripts": {
-    "start": "node jano.js"
+    "start": "node smsm.js"
   },
   "dependencies": {
     "discord.js": "11.4.2",
@@ -11,6 +11,6 @@
     "discord.js-v12": "^12.5.3"
   },
   "engines": {
-    "node": "8.x"
+    "node": "10"
   }
 }
