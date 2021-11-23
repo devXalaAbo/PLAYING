@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-//////// playing or dnd  streaming ////////
+//////// playing or dnd  stream
 
 client.on("ready", () =>{
   console.log(` Online bot ${client.user.tag}!`);
@@ -15,4 +15,4 @@ client.on("ready", () =>{
 ///////////////////////
 
 //////////////// tokn lera da bne
-client.login(process.env.TOKEN);
+
