@@ -6,6 +6,7 @@ jano.on("ready", () => {
   let statuses = [`JUST ALLAH`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
+    jano.user.StatusActivity("");
     jano.user.setActivity(STREAMING, {
       type: "STREAMING",
       url: "https://www.twitch.tv/faith"
