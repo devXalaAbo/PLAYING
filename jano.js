@@ -3,11 +3,14 @@ const jano = new Discord.Client();
 //////// playing or dnd  streaming ////////
 jano.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+  let statuses = [`ldle`];
   setInterval(function() {
-    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano.user.setActivity(STREAMING, {
-      type: "STREAMING",
+    let ldle = statuses[Math.floor(Math.random() * statuses.length)];
+    jano.user
+      .setActivity(ldle, {
+      
+      type: "PLAYING",
+      status: "ldle",
       url: "https://www.twitch.tv/faith"
     });
   }, 2000);
@@ -18,4 +21,4 @@ jano.on("ready", () => {
   if (join) join.join();
 });
 //////////////// tokn lera da bne
-jano.login("");
+jano.login(process.env.TOKEN);
