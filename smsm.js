@@ -21,7 +21,7 @@ if(message.content.startsWith(prefix + 'leave')) {
   if(!owner.includes(message.author.id)) return message.reply(STFU)
   
 if(!guild)return message.channel.send('Send The Server ID')
-message.channel.send(I am gonna leave => [${guild.name}])
+message.channel.send => [${guild.name}])
 guild.leave()
 }
 }) 
