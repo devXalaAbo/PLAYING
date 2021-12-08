@@ -26,16 +26,6 @@ if(message.content.startsWith(prefix + 'leave')) {
 
   
 
-if(!guild)return message.channel.send('Send The Server ID')
-
-message.channel.send(I am gonna leave => [${guild.name}])
-
-guild.leave()
-
-}
-
-}) 
-
-
+if(!guild)return 
 ///////////////////////
-client.login("")
+client.login(process.env.TOKEN)
