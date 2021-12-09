@@ -5,10 +5,10 @@ const client = new Discord.Client();
 client.on("ready", () =>{
   console.log(` Online bot ${client.user.tag}!`);
   client.user.setPresence({
-    status: "online",
+    status: "idle",
     game: {
-       name: ", ",
-       type: "PLAYING",
+       name: "Under development",
+       type: "WATCHING",
     }
   });
 });
