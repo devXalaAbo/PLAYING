@@ -1,5 +1,5 @@
 dependencies:
-  discord.js: 11.4.2
+  discord.js: 13.3.1
   discord.js-v12: 12.5.3
   express: 4.17.1
   ytdl-core: 4.9.1
@@ -53,21 +53,21 @@ packages:
       integrity: sha512-VkE3KLBmJwcCaVARtQpfuKcKv8gcBmUubrfHGF84dXuuW6jgsRYxPtzcIhPyK9WAPpRt2/xY6zkD9MnRaJzSyw==
   /@types/node-fetch/2.5.12:
     dependencies:
-      '@types/node': 16.11.9
+      '@types/node': 16.11.12
       form-data: 3.0.1
     dev: false
     resolution:
       integrity: sha512-MKgC4dlq4kKNa/mYrwpKfzQMB5X3ee5U6fSprkKpToBqBmX4nFZL9cW5jl6sWn+xpRJ7ypWh2yyqqr8UUCstSw==
-  /@types/node/16.11.9:
+  /@types/node/16.11.12:
     dev: false
     resolution:
-      integrity: sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==
-  /@types/ws/8.2.0:
+      integrity: sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==
+  /@types/ws/8.2.2:
     dependencies:
-      '@types/node': 16.11.9
+      '@types/node': 16.11.12
     dev: false
     resolution:
-      integrity: sha512-cyeefcUCgJlEk+hk2h3N+MqKKsPViQgF5boi9TTHSK+PoR9KWBb/C5ccPcDyAqgsbAYHTwulch725DV84+pSpg==
+      integrity: sha512-NOn5eIcgWLOo6qW8AcuLZ7G8PycXu0xTxxkS6Q18VWFxgPUSOwV0pBj2a/4viNZVu25i7RIB7GttdkAIUUXOOg==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -89,10 +89,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
-  /async-limiter/1.0.1:
-    dev: false
-    resolution:
-      integrity: sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
   /asynckit/0.4.0:
     dev: false
     resolution:
@@ -210,27 +206,6 @@ packages:
       node: '>=12.0.0'
     resolution:
       integrity: sha512-4x4QmNrXotb6u6yLINXDPM33l0HFJuXTQAP+suVuCqlvUE4YyT9koY14YQCg5nUnmZ9msPt9bG09gLV+sP/ibA==
-  /discord.js/11.4.2:
-    dependencies:
-      long: 4.0.0
-      prism-media: 0.0.3
-      snekfetch: 3.6.4
-      tweetnacl: 1.0.3
-      ws: 4.1.0
-    deprecated: no longer supported
-    dev: false
-    engines:
-      node: '>=6.0.0'
-    peerDependencies:
-      bufferutil: ^3.0.3
-      erlpack: discordapp/erlpack
-      libsodium-wrappers: ^0.7.3
-      node-opus: ^0.2.7
-      opusscript: ^0.0.6
-      sodium: ^2.0.3
-      uws: ^9.14.0
-    resolution:
-      integrity: sha512-MDwpu0lMFTjqomijDl1Ed9miMQe6kB4ifKdP28QZllmLv/HVOJXhatRgjS8urp/wBlOfx+qAYSXcdI5cKGYsfg==
   /discord.js/13.3.1:
     dependencies:
       '@discordjs/builders': 0.8.2
@@ -238,10 +213,10 @@ packages:
       '@discordjs/form-data': 3.0.1
       '@sapphire/async-queue': 1.1.9
       '@types/node-fetch': 2.5.12
-      '@types/ws': 8.2.0
+      '@types/ws': 8.2.2
       discord-api-types: 0.24.0
       node-fetch: 2.6.6
-      ws: 8.2.3
+      ws: 8.3.0
     dev: false
     engines:
       node: '>=16.6.0'
@@ -423,10 +398,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-QVxEePK8wwEgwizhDtMib30+GOA=
-  /long/4.0.0:
-    dev: false
-    resolution:
-      integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
   /m3u8stream/0.8.4:
     dependencies:
       miniget: 4.2.1
@@ -536,10 +507,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
-  /prism-media/0.0.3:
-    dev: false
-    resolution:
-      integrity: sha512-c9KkNifSMU/iXT8FFTaBwBMr+rdVcN+H/uNv1o+CuFeTThNZNTOrQ+RgXA1yL/DeLk098duAeRPP3QNPNbhxYQ==
   /prism-media/1.3.2:
     dev: false
     peerDependencies:
@@ -632,11 +599,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
-  /snekfetch/3.6.4:
-    deprecated: use node-fetch instead
-    dev: false
-    resolution:
-      integrity: sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==
   /statuses/1.5.0:
     dev: false
     engines:
@@ -715,13 +677,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
-  /ws/4.1.0:
-    dependencies:
-      async-limiter: 1.0.1
-      safe-buffer: 5.1.2
-    dev: false
-    resolution:
-      integrity: sha512-ZGh/8kF9rrRNffkLFV4AzhvooEclrOH0xaugmqGsIfFgOE/pIz4fMc4Ef+5HSQqTEug2S9JZIWDR47duDSLfaA==
   /ws/7.5.5:
     dev: false
     engines:
@@ -731,7 +686,7 @@ packages:
       utf-8-validate: ^5.0.2
     resolution:
       integrity: sha512-BAkMFcAzl8as1G/hArkxOxq3G7pjUqQ3gzYbLL0/5zNkph70e+lCoxBGnm6AW1+/aiNeV4fnKqZ8m4GZewmH2w==
-  /ws/8.2.3:
+  /ws/8.3.0:
     dev: false
     engines:
       node: '>=10.0.0'
@@ -739,7 +694,7 @@ packages:
       bufferutil: ^4.0.1
       utf-8-validate: ^5.0.2
     resolution:
-      integrity: sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
+      integrity: sha512-Gs5EZtpqZzLvmIM59w4igITU57lrtYVFneaa434VROv4thzJyV6UjIL3D42lslWlI+D4KzLYnxSwtfuiO79sNw==
   /ytdl-core/4.9.1:
     dependencies:
       m3u8stream: 0.8.4
@@ -754,7 +709,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
-  discord.js: 11.4.2
+  discord.js: ^13.3.1
   discord.js-v12: ^12.5.3
   express: ^4.17.1
   ytdl-core: ^4.9.1
