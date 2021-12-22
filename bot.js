@@ -7,7 +7,7 @@ client.on("ready", () =>{
   client.user.setPresence({
     status: "idle",
     game: {
-       name: "Under development",
+       name: "MOVED TO SKULL| Gwastra bo Skull",
        type: "WATCHING",
     }
   });
