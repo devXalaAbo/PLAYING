@@ -1,5 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+client.db = require("quick.db");
+const { Prefix, Token } = require("./config.json");
+
 //////// playing or dnd  stream
 
 client.on("ready", () =>{
