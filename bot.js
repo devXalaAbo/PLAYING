@@ -10,7 +10,7 @@ client.on("ready", () =>{
   client.user.setPresence({
     status: "idle",
     game: {
-       name: "SAD SLEEPING",
+       name: "Under Development|By ZeroHost",
        type: "WATCHING",
     }
   });
@@ -21,4 +21,4 @@ client.on("ready", () =>{
 
 
 ///////////////////////
-client.login(config.token);
+client.login("NzIzODUyMTM4NjEwMDMyNzIw.Xu3p1g.RYpFF2AWc7ap6Sfy3tV4zKzq5io");
