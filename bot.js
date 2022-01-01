@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.db = require("quick.db");
-const { Prefix } = require("./config.json");
+
 
 //////// playing or dnd  stream
 
@@ -21,4 +21,4 @@ client.on("ready", () =>{
 
 
 ///////////////////////
-client.login("NzIzODUyMTM4NjEwMDMyNzIw.Xu3p1g.RYpFF2AWc7ap6Sfy3tV4zKzq5io");
+client.login("NzIzODUyMTM4NjEwMDMyNzIw.Xu3p1g.3GWCGTbaMUIHijt7pIkRzJb-uwM");
