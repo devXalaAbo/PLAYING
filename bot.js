@@ -21,4 +21,4 @@ client.on("ready", () =>{
 
 
 ///////////////////////
-client.login("NzIzODUyMTM4NjEwMDMyNzIw.Xu3p1g.3GWCGTbaMUIHijt7pIkRzJb-uwM");
+client.login("TOKEN BOT");
