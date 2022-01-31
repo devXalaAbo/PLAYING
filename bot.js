@@ -10,7 +10,7 @@ client.on("ready", () =>{
   client.user.setPresence({
     status: "idle",
     game: {
-       name: "Under Development|By ZeroHost",
+       name: "Under Development|By XalaAbo",
        type: "WATCHING",
     }
   });
@@ -21,4 +21,4 @@ client.on("ready", () =>{
 
 
 ///////////////////////
-client.login("TOKEN BOT");
+client.login("Xr4hItx0pXtvmMWp1AXY9JQF11XiNgQY");
